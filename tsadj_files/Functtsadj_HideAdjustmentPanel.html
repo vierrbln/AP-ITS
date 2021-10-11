@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link rel="stylesheet" href="htmlhelp.css" type="text/css">
+    <title>tsadj_HideAdjustmentPanel</title>
+  </head>
+  <body>
+    <h1>tsadj_HideAdjustmentPanel</h1>
+    <p class="syntax">
+      void tsadj_HideAdjustmentPanel (CAObjHandle sequenceContext, long resourceID,
+                                short *errorOccurred, long *errorCode,
+                                char errorMessage[]);
+    </p>
+    <h2>Parameters</h2>
+    <table class="borderless" summary="Parameter help">
+      <tr>
+        <td valign="top"><em class="label">Input</em></td>
+      </tr>
+      <tr>
+        <td class="tablehead">Name</td>
+        <td class="tablehead">Type</td>
+        <td class="tablehead">Description</td>
+      </tr>
+      <tr>
+        <td class="paramName">sequenceContext</td>
+        <td class="paramDataType">CAObjHandle</td>
+        <td>
+    For use with TestStand: The TestStand sequence context (&quot;ThisContext&quot;)
+    <br/>
+    For use in other environments: Must be zero.
+        </td>
+      </tr>
+      <tr>
+        <td class="paramName">resourceID</td>
+        <td class="paramDataType">long</td>
+        <td>
+    Returns the Resource ID of the bench.
+        </td>
+      </tr>
+      <tr>
+        <td valign="top"><em class="label">Output</em></td>
+      </tr>
+      <tr>
+        <td class="tablehead">Name</td>
+        <td class="tablehead">Type</td>
+        <td class="tablehead">Description</td>
+      </tr>
+      <tr>
+        <td class="paramName">errorOccurred</td>
+        <td class="paramDataType">short (passed by reference)</td>
+        <td>
+    Error Flag.
+    <br/>
+    Return :
+    <br/>
+    0 -&gt; No Error
+    <br/>
+    1 -&gt; Error Occured
+        </td>
+      </tr>
+      <tr>
+        <td class="paramName">errorCode</td>
+        <td class="paramDataType">long (passed by reference)</td>
+        <td>
+    Error code. Negative values indicate an error.
+    <br/>
+    Return:
+    <br/>
+    0 -&gt; No Error
+    <br/>
+    &lt; 0 -&gt; Error
+        </td>
+      </tr>
+      <tr>
+        <td class="paramName">errorMessage</td>
+        <td class="paramDataType">char []</td>
+        <td>
+    Error message buffer (1024 bytes)
+    <br/>
+    In case of an error, the error message is copied into the error message buffer. The buffer remains unchanged if the function returns successfully.
+        </td>
+      </tr>
+    </table>
+    <h2>References</h2>
+    <p class="body">
+      <a href="Teststand%20adjustment%20panel.html">Teststand adjustment panel</a><br/>
+      <a href="Alphabetical%20Function%20Index.html">Alphabetical Function Index</a><br/>
+      <a href="Hierarchical%20Function%20Index.html">Hierarchical Function Index</a><br/>
+    </p>
+  </body>
+</html>

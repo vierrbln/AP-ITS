@@ -1,0 +1,26 @@
+[ALIAS]
+IDH_tsadj_Setup=tsadj_files\Functtsadj_Setup.html
+IDH_tsadj_DisplayAdjustmentPanel=tsadj_files\Functtsadj_DisplayAdjustmentPanel.html
+IDH_tsadj_SetValueAdjustmentPanel=tsadj_files\Functtsadj_SetValueAdjustmentPanel.html
+IDH_tsadj_HideAdjustmentPanel=tsadj_files\Functtsadj_HideAdjustmentPanel.html
+IDH_tsadj_Cleanup=tsadj_files\Functtsadj_Cleanup.html
+IDH_tsadj_html_main_file=tsadj.html
+
+[MAP]
+#define IDH_tsadj_Setup 1
+#define IDH_tsadj_DisplayAdjustmentPanel 2
+#define IDH_tsadj_SetValueAdjustmentPanel 3
+#define IDH_tsadj_HideAdjustmentPanel 4
+#define IDH_tsadj_Cleanup 5
+#define IDH_tsadj_html_main_file 6
+
+[FILES]
+tsadj.html
+tsadj_files\Alphabetical Function Index.html
+tsadj_files\Hierarchical Function Index.html
+tsadj_files\Functtsadj_Setup.html
+tsadj_files\Functtsadj_DisplayAdjustmentPanel.html
+tsadj_files\Functtsadj_SetValueAdjustmentPanel.html
+tsadj_files\Functtsadj_HideAdjustmentPanel.html
+tsadj_files\Functtsadj_Cleanup.html
+tsadj_files\htmlhelp.css
